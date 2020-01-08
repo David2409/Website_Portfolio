@@ -1,0 +1,7 @@
+img{
+    width: 100%;
+}
+.textarea{
+    overflow-y: auto;
+    height: 10vw;
+}
