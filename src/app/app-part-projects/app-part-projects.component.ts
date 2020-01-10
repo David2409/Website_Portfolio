@@ -10,12 +10,16 @@ import { projectsURL} from '../../settings';
 export class AppPartProjects implements OnInit {
 
   projects;
+  packages;
 
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.dataService.Get(projectsURL.URL).subscribe((data:any []) => {
-      this.projects = data;
-    })
+    this.dataService.Get(projectsURL.URL).subscribe((data:any ) => {
+      let a = data;
+      this.packages = a.packages;
+      this.projects = a.projects;
+      console.log(this.packages);
+    });
   }
 }

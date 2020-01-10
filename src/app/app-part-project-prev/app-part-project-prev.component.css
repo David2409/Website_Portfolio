@@ -5,3 +5,7 @@ img{
     overflow-y: auto;
     height: 10vw;
 }
+.main{
+    margin: 0;
+    padding: 0;
+}

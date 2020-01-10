@@ -11,21 +11,31 @@ function CreateProject(name) {
 			name: faker.lorem.word()
 		});
 	}
-	database.projects.push({id: name});
+	database.projects.projects.push({id: name});
 	return p;
 };
 
 var faker = require('faker');
 
-var database = { aboutMe: {}, projects: [], p1Prev: {}, p2Prev: {}, p3Prev: {}};
+var database = { aboutMe: {}, projects: {}, p1Prev: {}, p2Prev: {}, p3Prev: {}};
 
 database.aboutMe = {
     name:"MY NAME",
     pictureURL:"https://www.mera-petfood.com/files/_processed_/b/3/csm_Katze_eingewoehnen_MERA-Katzenratgeber_85ea6d4ff6.jpg"
 }
 
+database.projects = {projects: [], packages: []}
+
+var package = [];
 database.p1Prev = CreateProject("p1Prev");
 database.p2Prev = CreateProject("p2Prev");
 database.p3Prev = CreateProject("p3Prev");
+package.push({ id:"p1Prev"});
+package.push({ id:"p1Prev"});
+package.push({ id:"p1Prev"});
+database.projects.packages.push(package);
+database.projects.packages.push(package);
+database.projects.packages.push(package);
+
 
 console.log(JSON.stringify(database));
