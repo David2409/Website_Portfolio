@@ -1,0 +1,15 @@
+.mInner{
+}
+.mRow{
+    width: 100%;
+}
+.mItem{
+    display: inline-block;
+}
+#myCarousel{
+    background-color: gray;
+    padding: 2vw 7vw 2vw 7vw;
+}
+.contr{
+    width: 7vw;
+}
