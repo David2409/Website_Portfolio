@@ -1,12 +1,15 @@
-<div class="main">
+<div class="main projectPrev">
   <div class="card shadow-sm">
-    <img src="{{project.pictureURL}}">
+    <img src="{{project.coverpicture}}">
     <div class="card-body">
+      <div class="tags" style="height: 2vw; display: flex; flex-wrap: nowrap; align-items: center; overflow: hidden;">
+        <div *ngFor="let tag of project.tags" style="font-size: small; padding:0.3vw">{{tag}}</div>
+      </div>
       <p class="card-text textarea text">{{project.description}}</p>
       <div class="d-flex justify-content-between align-items-center">
         <div class="btn-group">
           <button type="button" class="btn btn-sm btn-outline-secondary">Download</button>
-          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary" (click)="View()">View</button>
         </div>
         <small class="text-muted"></small>
       </div>

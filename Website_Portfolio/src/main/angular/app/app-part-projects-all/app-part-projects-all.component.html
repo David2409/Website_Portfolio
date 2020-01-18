@@ -1,1 +1,12 @@
-<p>app-part-proects-all works!</p>
+<div class="row w100">
+    <div class="col-sm-4">
+        <app-part-projects-all-tags (outName)="this.selectedName = $event" (outTags)="this.selectedTags = $event" (outClick)="this.Search()"></app-part-projects-all-tags>  
+    </div>
+    <div class="col-sm-8 card p-2">
+        <div id="project-container">
+            <div class="row w100">
+                <app-part-project-prev *ngFor="let project of projects" [project]="project" class="item" [ngClass]="{'col-4': showSmall}" (clicked)="this.clicked.emit($event)"></app-part-project-prev>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="card p-2">
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search..." id="inputName">
+        <div class="input-group-append">
+            <button type="button" class="btn btn-secondary" id="inputSearch" (click)="Search()">Search</button>
+        </div>
+    </div>
+    <ul id="tags" class="list-group">
+        <li class="list-group-item d-flex just-content-between lh-condensed" *ngFor="let tag of tags">
+            <div class="input-group">
+                <div class="input-group-prepend w100">
+                    <span class="input-group-text bg-light w100 jcb">
+                        <div>
+                            <input id="{{tag.name}}" class="inputTag" type="checkbox">
+                            <span class="tagNames"> {{tag.name}}</span>
+                        </div>
+                        <span>{{tag.entries}}</span>
+                    </span>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

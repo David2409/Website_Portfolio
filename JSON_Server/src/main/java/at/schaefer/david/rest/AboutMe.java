@@ -1,9 +1,12 @@
 package at.schaefer.david.rest;
 
 import com.mysql.cj.x.protobuf.MysqlxNotice;
+import templates.DTOAboutMe;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -19,22 +22,23 @@ public class AboutMe {
 
     @GET
     @Path("")
-    public Response getMesg() throws SQLException {
-        Statement statement;
+    @Produces(MediaType.APPLICATION_JSON)
+    public DTOAboutMe GetAboutMe() throws SQLException {
+        LOGGER.log(Level.INFO,"Got HTTP-Request");
+        DTOAboutMe aboutMe = new DTOAboutMe();
         try{
-             statement = Globals.database.createStatement();
-             statement.execute("INSERT INTO aboutme (name, picture_id) VALUES ('David Schaefer','1');");
-             statement.close();
+             Statement statement = Globals.database.createStatement();
              ResultSet result = statement.executeQuery("SELECT name, picture_id FROM aboutme;");
              if(result.next()) {
-                 String respond = "{'name':'" + result.getString(1) + "','pictureID':'" + result.getString(2) + "'}";
-                 return Response.status(200).entity(respond).build();
+                 aboutMe.name = result.getString(1);
+                 aboutMe.picture = result.getInt(2);
+                 statement.close();
              }
-             return Response.status(500).entity("No Database Entry").build();
+             statement.close();
         }
         catch (Exception e) {
             LOGGER.log(Level.WARNING, "", e );
-            return Response.status(500).entity("").build();
         }
+        return aboutMe;
     }
 }

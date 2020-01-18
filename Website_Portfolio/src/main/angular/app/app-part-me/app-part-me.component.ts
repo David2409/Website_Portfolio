@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { aboutMeURL } from '../../settings';
+import { Component, OnInit, HostListener } from '@angular/core';
+import { aboutMeURL, imageURL, changeLayout } from '../../settings';
 import { DataService } from '../data.service';
 
 @Component({
@@ -17,6 +17,7 @@ export class AppPartMe implements OnInit {
   ngOnInit() {
     this.dataService.Get(aboutMeURL.URL).subscribe((data:any []) => {
       this.aboutMe = data;
+      this.aboutMe.picture = imageURL.URL + this.aboutMe.picture;
     })
   }
 }

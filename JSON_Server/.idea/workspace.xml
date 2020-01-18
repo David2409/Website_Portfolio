@@ -1,8 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df45c74c-b186-49bc-9351-5fd149fa8680" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="df45c74c-b186-49bc-9351-5fd149fa8680" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/All.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/Tags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templates/DTOAboutMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templates/DTOProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templates/DTOProjectPrev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templates/DTOTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templates/DTOTags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all-tags/app-part-projects-all-tags.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all-tags/app-part-projects-all-tags.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all-tags/app-part-projects-all-tags.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all-tags/app-part-projects-all-tags.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/AboutMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/AboutMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/Globals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/Images.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/Images.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/Projects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/Projects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/SourceCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/SourceCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/StartupListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/StartupListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/AboutMe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/AboutMe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Globals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Globals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Images.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Images.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Projects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Projects.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/StartupListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/StartupListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/AboutMe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/AboutMe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Globals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Globals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Images.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Images.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Projects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Projects.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/StartupListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/StartupListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL/sqlquerys.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/sqlquerys.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL/tempData.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/tempData.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/node-gyp-bin/node-gyp" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/node-gyp-bin/node-gyp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/node-gyp-bin/node-gyp.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/node-gyp-bin/node-gyp.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/npm" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/npm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/npm-cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/npm-cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/npm.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/npm.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/npx-cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/npx-cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/npx.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/npx.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/changelogs/CHANGELOG-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/changelogs/CHANGELOG-5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/configure" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/configure" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/lib/utils/completion.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/lib/utils/completion.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/JSONStream/bin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/JSONStream/bin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/JSONStream/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/JSONStream/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/JSONStream/test/fixtures/all_npm.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/JSONStream/test/fixtures/all_npm.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ajv/scripts/info" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ajv/scripts/info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ajv/scripts/prepare-tests" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ajv/scripts/prepare-tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ajv/scripts/travis-gh-pages" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ajv/scripts/travis-gh-pages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/cmd-shim/test/basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/cmd-shim/test/basic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/color-name/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/color-name/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/color-name/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/color-name/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/color-name/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/color-name/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/color-name/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/color-name/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/color-name/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/color-name/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/config-chain/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/config-chain/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/lib/LICENSE-jsbn" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/lib/LICENSE-jsbn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/lib/ec.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/lib/ec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/lib/sec.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/lib/sec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/ecc-jsbn/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/errno/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/errno/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/errno/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/errno/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/is-ci/bin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/is-ci/bin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-00/hyper-schema" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-00/hyper-schema" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-00/json-ref" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-00/json-ref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-00/links" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-00/links" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-00/schema" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-00/schema" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-01/hyper-schema" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-01/hyper-schema" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-01/json-ref" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-01/json-ref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-01/links" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-01/links" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-01/schema" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-01/schema" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-02/hyper-schema" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-02/hyper-schema" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-02/json-ref" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-02/json-ref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-02/links" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-02/links" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-02/schema" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-02/schema" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/examples/address" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/examples/address" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/examples/calendar" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/examples/calendar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/examples/card" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/examples/card" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/examples/geo" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/examples/geo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/examples/interfaces" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/examples/interfaces" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/hyper-schema" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/hyper-schema" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/json-ref" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/json-ref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/links" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/links" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/schema" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-03/schema" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-04/hyper-schema" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-04/hyper-schema" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-04/links" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-04/links" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-04/schema" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-04/schema" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-zyp-json-schema-03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-zyp-json-schema-03.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-zyp-json-schema-04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/draft-zyp-json-schema-04.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/lib/links.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/lib/links.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/lib/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/lib/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/test/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/json-schema/test/tests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/mkdirp/bin/cmd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/mkdirp/bin/cmd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/gyp" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/gyp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/gyp.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/gyp.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/gyp_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/gyp_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/MSVSSettings_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/MSVSSettings_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/common_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/common_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/easy_xml_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/easy_xml_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/flock_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/flock_tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/generator/msvs_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/generator/msvs_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/input_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/input_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/mac_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/mac_tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/win_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/win_tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/samples/samples" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/samples/samples" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/samples/samples.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/samples/samples.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/tools/emacs/run-unit-tests.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/tools/emacs/run-unit-tests.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/tools/graphviz.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/tools/graphviz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/tools/pretty_gyp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/tools/pretty_gyp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/tools/pretty_sln.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/tools/pretty_sln.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/tools/pretty_vcproj.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/gyp/tools/pretty_vcproj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/node_modules/nopt/bin/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/node_modules/nopt/bin/nopt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/node_modules/nopt/examples/my-program.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/node_modules/nopt/examples/my-program.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/node_modules/semver/bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/node_modules/semver/bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/test/docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/node-gyp/test/docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/nopt/bin/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/nopt/bin/nopt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/nopt/examples/my-program.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/nopt/examples/my-program.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin/node-gyp" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin/node-gyp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin/node-gyp.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin/node-gyp.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/opener/bin/opener-bin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/opener/bin/opener-bin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/performance-now/test/scripts/delayed-call.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/performance-now/test/scripts/delayed-call.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/performance-now/test/scripts/delayed-require.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/performance-now/test/scripts/delayed-require.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/performance-now/test/scripts/difference.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/performance-now/test/scripts/difference.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/performance-now/test/scripts/initial-value.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/performance-now/test/scripts/initial-value.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/qrcode-terminal/bin/qrcode-terminal.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/qrcode-terminal/bin/qrcode-terminal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/rc/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/rc/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/rc/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/rc/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/request/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/request/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/rimraf/bin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/rimraf/bin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/semver/bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/semver/bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/sshpk/bin/sshpk-conv" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/sshpk/bin/sshpk-conv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/sshpk/bin/sshpk-sign" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/sshpk/bin/sshpk-sign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/sshpk/bin/sshpk-verify" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/sshpk/bin/sshpk-verify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/term-size/vendor/macos/term-size" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/term-size/vendor/macos/term-size" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/uid-number/get-uid-gid.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/uid-number/get-uid-gid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/uuid/bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/uuid/bin/uuid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/which/bin/which" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/which/bin/which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/wrap-ansi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/node_modules/wrap-ansi/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/clean-old.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/clean-old.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/dep-update" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/dep-update" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/dev-dep-update" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/dev-dep-update" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/doc-build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/doc-build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/gen-changelog" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/gen-changelog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/index-build.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/index-build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/maketest" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/maketest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/relocate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/relocate.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/update-authors.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/update-authors.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/npm" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/npm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/npm.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/npm.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-project-prev/app-part-project-prev.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-project-prev/app-part-project-prev.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-project-prev/app-part-project-prev.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-project-prev/app-part-project-prev.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-favorites/app-part-projects-favorites.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-favorites/app-part-projects-favorites.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-favorites/app-part-projects-favorites.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-favorites/app-part-projects-favorites.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-favorites/app-part-projects-favorites.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-favorites/app-part-projects-favorites.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects/app-part-projects.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects/app-part-projects.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/settings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/settings.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,27 +210,24 @@
   </component>
   <component name="ProjectId" id="1WDhX4sbZAS63IS2Y7TZrHt5aYm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/RESTfulExample" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.AboutMe">
+  <component name="RunManager" selected="Application.Projects">
     <configuration name="AboutMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.schaefer.david.rest.AboutMe" />
-      <module name="JSON_Server" />
+      <module name="REST_service" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="at.schaefer.david.rest.*" />
@@ -60,7 +240,20 @@
     </configuration>
     <configuration name="Globals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.schaefer.david.rest.Globals" />
-      <module name="JSON_Server" />
+      <module name="REST_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.schaefer.david.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Projects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.schaefer.david.rest.Projects" />
+      <module name="REST_service" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="at.schaefer.david.rest.*" />
@@ -73,13 +266,26 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AboutMe" />
+        <item itemvalue="Application.Projects" />
         <item itemvalue="Application.Globals" />
+        <item itemvalue="Application.AboutMe" />
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -103,5 +309,95 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="590" y="215" width="800" height="684" key="#Plugins" timestamp="1578927208696">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="590" y="215" width="800" height="684" key="#Plugins/70.27.1850.1053@70.27.1850.1053" timestamp="1578927208696" />
+    <state x="590" y="215" width="800" height="684" key="#Project_Structure" timestamp="1578927307216">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="590" y="215" width="800" height="684" key="#Project_Structure/70.27.1850.1053@70.27.1850.1053" timestamp="1578927307216" />
+    <state x="728" y="311" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579015505484">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="728" y="311" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1579015505484" />
+    <state x="803" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1579338459428">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="803" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1579338459428" />
+    <state x="748" y="440" width="494" height="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579165159348">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="748" y="440" width="494" height="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/70.27.1850.1053@70.27.1850.1053" timestamp="1579165159348" />
+    <state x="896" y="314" width="424" height="491" key="FileChooserDialogImpl" timestamp="1579096917988">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="896" y="314" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1579096917988" />
+    <state width="1804" height="257" key="GridCell.Tab.0.bottom" timestamp="1579384968744">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="257" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1579384968744" />
+    <state width="1804" height="257" key="GridCell.Tab.0.center" timestamp="1579384968743">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="257" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1579384968743" />
+    <state width="1804" height="257" key="GridCell.Tab.0.left" timestamp="1579384968742">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="257" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1579384968742" />
+    <state width="1804" height="257" key="GridCell.Tab.0.right" timestamp="1579384968743">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="257" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1579384968743" />
+    <state width="1804" height="201" key="GridCell.Tab.1.bottom" timestamp="1579383695491">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="201" key="GridCell.Tab.1.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1579383695491" />
+    <state width="1804" height="201" key="GridCell.Tab.1.center" timestamp="1579383695490">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="201" key="GridCell.Tab.1.center/70.27.1850.1053@70.27.1850.1053" timestamp="1579383695490" />
+    <state width="1804" height="201" key="GridCell.Tab.1.left" timestamp="1579383695490">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="201" key="GridCell.Tab.1.left/70.27.1850.1053@70.27.1850.1053" timestamp="1579383695490" />
+    <state width="1804" height="201" key="GridCell.Tab.1.right" timestamp="1579383695490">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="201" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1579383695490" />
+    <state x="528" y="211" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1579164296342">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="528" y="211" width="924" height="691" key="Maven.ArtifactSearchDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1579164296342" />
+    <state x="484" y="188" width="1258" height="737" key="SettingsEditor" timestamp="1578932474920">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="484" y="188" width="1258" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1578932474920" />
+    <state x="651" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1579382354434">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="651" y="380" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1579382354434" />
+    <state x="659" y="252" key="run.anything.popup" timestamp="1579017204131">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="659" y="252" key="run.anything.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1579017204131" />
+    <state x="658" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1579379325291">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="658" y="259" width="672" height="678" key="search.everywhere.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1579379325291" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="result.getInt(1)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JSON_Server$Projects.ic" NAME="Projects Coverage Results" MODIFIED="1579383460705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.schaefer.david.rest.*</FILTER>
+    </SUITE>
   </component>
 </project>

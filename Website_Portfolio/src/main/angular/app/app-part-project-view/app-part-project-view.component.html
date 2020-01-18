@@ -1,0 +1,35 @@
+<div class="navbar navbar-dark f jC">
+    <div class="container row">
+        <div class="col-3">
+           <Button class="btn btn-outline-primary" (click)="this.clicked.emit()">Back</Button>
+        </div>
+        <div class="col-sm-6 f jC">
+            <h1>{{project.name}}</h1>
+        </div>
+        <div class="col-sm-3">
+
+        </div>
+    </div>
+    <div>
+
+    </div>
+</div>
+<div>
+    <div class="f jC">
+        <img src="{{project.coverpicture}}">
+    </div>
+    <div class="">
+        <h3 class="tC text">Description</h3>
+        <div class="card p-2 text">
+            <p class="tC">{{project.description}}</p>
+        </div>
+    </div>
+    <div class="f jC">
+        <br>
+        <h3>SourceCode</h3>
+        <br>
+    </div>
+    <div class="card p-2 text" *ngFor="let sc of project.sourcecode">
+        <div [innerHTML]="sc"></div>
+    </div>
+</div>

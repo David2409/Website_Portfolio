@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AppPartProjectsFavorites } from './app-part-projects-favorites.component';
 
-describe('AppPartProectsFavoritesComponent', () => {
+describe('AppPartProjectsFavoritesComponent', () => {
   let component: AppPartProjectsFavorites;
   let fixture: ComponentFixture<AppPartProjectsFavorites>;
 

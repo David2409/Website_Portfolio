@@ -1,13 +1,28 @@
+const server = "http://localhost:8080/WebsitePortfolio/"
+
 export const aboutMeURL = {
-    "URL":"http://localhost:3000/aboutMe"
+    "URL":server + "aboutme"
 };
 export const projectsURL = {
-    "URL":"http://localhost:3000/projects"
+    "URL":server + "projects"
 };
+export const projectsSearch = {
+    "URL":server + "projects/search/"
+}
 export const projectsFavorURL = {
-    "URL":"http://localhost:3000/projectsFav"
+    "URL":server + "projects/fav/9",
 }
 export const projectsPrevURL = {
-    "URL":"http://localhost:3000/",
-    "end":""
+    "URL":server + "projects/",
+    "end":"/prev"
 };
+export const imageURL = {
+    "URL":server + "image/"
+}
+export const sourceCodeURL = {
+    "URL":server + "sourcecode/"
+}
+export const tagsURL = {
+    "URL":server + "tags"
+}
+export const changeLayout = 900;

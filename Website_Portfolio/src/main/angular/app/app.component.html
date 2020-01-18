@@ -1,2 +1,6 @@
-<app-part-me></app-part-me>
-<app-part-projects></app-part-projects>
+<div id="main">
+    <app-part-me></app-part-me>
+    <app-part-general></app-part-general>
+    <app-part-projects (clicked)="this.projectViewed = $event; this.projectClick()"></app-part-projects>
+</div>
+<app-part-project-view id="view" [project]="projectViewed" (clicked)="this.viewClick()" style="display: none;"></app-part-project-view>

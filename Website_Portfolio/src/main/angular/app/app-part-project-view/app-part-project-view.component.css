@@ -1,0 +1,18 @@
+.jC{
+    justify-content: center;
+}
+.f{
+    display: flex;
+}
+img{
+    width: calc(100% - 16vw);
+}
+.text{
+    margin: 3vw;
+}
+.tC{
+    text-align: center;
+}
+textarea{
+    height: 50vw;
+}
