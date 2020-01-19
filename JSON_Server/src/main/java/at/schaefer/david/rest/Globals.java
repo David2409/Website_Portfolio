@@ -13,7 +13,7 @@ public class Globals{
     public static void init(){
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            database = DriverManager.getConnection("jdbc:mysql://localhost:3306/websiteportfolio?serverTimezone=UTC", "restService", "password");
+            database = DriverManager.getConnection("jdbc:mysql://localhost:3306/portfolio?serverTimezone=UTC", "portfolio_app_user", "htl1160");
         } catch (Exception e) {
             e.printStackTrace();
         }

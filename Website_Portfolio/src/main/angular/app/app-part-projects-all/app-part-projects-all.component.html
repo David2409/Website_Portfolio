@@ -1,8 +1,8 @@
-<div class="row w100">
-    <div class="col-sm-4">
-        <app-part-projects-all-tags (outName)="this.selectedName = $event" (outTags)="this.selectedTags = $event" (outClick)="this.Search()"></app-part-projects-all-tags>  
+<div class="w100 row p0 m0">
+    <div class="col-md-4 w100 m0 p0">
+        <app-part-projects-all-tags class="w100" (outName)="this.selectedName = $event" (outTags)="this.selectedTags = $event" (outClick)="this.Search()"></app-part-projects-all-tags>  
     </div>
-    <div class="col-sm-8 card p-2">
+    <div class="col-md-8 card p-2 main">
         <div id="project-container">
             <div class="row w100">
                 <app-part-project-prev *ngFor="let project of projects" [project]="project" class="item" [ngClass]="{'col-4': showSmall}" (clicked)="this.clicked.emit($event)"></app-part-project-prev>

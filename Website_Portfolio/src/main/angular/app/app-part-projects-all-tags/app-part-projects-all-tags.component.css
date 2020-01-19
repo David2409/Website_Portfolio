@@ -1,5 +1,8 @@
 #tags{
     margin-top: 1vw;
+    max-height: 60vw;
+    overflow-y: auto;
+    overflow-x: visible;
 }
 .tagContainer{
     margin-left: 1vw;
@@ -14,4 +17,7 @@
 .jcb{
     display: flex;
     justify-content: space-between;
+}
+.tags{
+    height: 60vw;
 }

@@ -1,9 +1,30 @@
 .f{
     display: flex;
 }
+.if{
+    display: inline-flex;
+}
 .jC{
     justify-content: center;
 }
+.aC{
+    align-items: center;
+    width: 100%;
+}
 .w100{
     width: 100%;
+}
+.cont{
+   margin-right: 1vw;
+}
+.mCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h4{
+    margin: 0;
+}
+.m2{
+    margin: 2vw;
 }

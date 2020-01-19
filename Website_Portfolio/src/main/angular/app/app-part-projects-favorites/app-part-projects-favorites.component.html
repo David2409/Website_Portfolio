@@ -1,11 +1,10 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <div id="favWith3" class="carousel-inner mInner">
+    <div id="items" class="carousel-inner mInner">
       <div *ngFor="let package of packages; let i = index" class=" carousel-item myRow" [ngClass]="{'active': i == 0}">
-        <app-part-project-prev *ngFor="let project of package" [project]="project" class="mItem col-4" (clicked)="this.clicked.emit($event)"></app-part-project-prev>
+        
+          <app-part-project-prev *ngFor="let project of package" class="mItem" [ngClass]="{'col-4': this.mode == false}" [project]="project" (clicked)="this.clicked.emit($event)"></app-part-project-prev>
+        
       </div>
-    </div>
-    <div id="favWith1" class="carousel-inner mInner mRow">
-        <app-part-project-prev *ngFor="let project of receivedData; let i = index" [project]="project" class="mItem carousel-item" [ngClass]="{'active': i == 0}" (clicked)="this.clicked.emit($event)"></app-part-project-prev>
     </div>
     <a class="carousel-control-prev contr" href="#myCarousel" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -15,7 +14,4 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-    <!--<ol class="carousel-indicators">
-      <li data-target="#myCarousel" *ngFor="let package of packages; let i = index" attr.data-slide-to="{{i}}" [ngClass]="{'active': i == 0}"></li>
-    </ol>-->
 </div>

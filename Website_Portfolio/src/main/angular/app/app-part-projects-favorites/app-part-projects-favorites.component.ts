@@ -20,8 +20,6 @@ export class AppPartProjectsFavorites implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.fav3 = document.getElementById("favWith3");
-    this.fav1 = document.getElementById("favWith1");
     this.dataService.Get(projectsFavorURL.URL).subscribe((data:any ) => {
       this.receivedData = data;
       for(var i = 0; i < this.receivedData.length; i++){
@@ -36,7 +34,7 @@ export class AppPartProjectsFavorites implements OnInit {
     this.packages = [];
     for(var i = 0; i < this.receivedData.length; i+=packagesSize){
       var p = [];
-      for(var i2 = 0; i2 < this.receivedData.length && i2 < packagesSize; i2++){
+      for(var i2 = 0; i+ i2 < this.receivedData.length && i2 < packagesSize; i2++){
         p.push(this.receivedData[i+i2]);
       }
       this.packages.push(p);
@@ -47,13 +45,19 @@ export class AppPartProjectsFavorites implements OnInit {
   @HostListener('window:resize', ['$event'])
   Resize() {
     if(window.innerWidth <= changeLayout && this.mode != true){
+      this.GeneratePackages(1);
       this.mode = true;
+      /*
       this.fav3.style.display = "none";
       this.fav1.style.display = "";
+      */
     } else if(window.innerWidth > changeLayout && this.mode != false){
+      this.GeneratePackages(3);
       this.mode = false;
+      /*
       this.fav1.style.display = "none";
       this.fav3.style.display = "";
+      */
     }
   }
 }

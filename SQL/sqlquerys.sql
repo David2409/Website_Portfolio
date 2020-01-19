@@ -55,3 +55,11 @@ WHERE
 
 #only name
 SELECT id FROM projects p WHERE name LIKE '%TEST%';    
+
+
+#Knowledge
+SELECT name, points FROM knowledge;
+#Hobbies
+SELECT name FROM hobbies;
+#attributes
+SELECT name FROM personalattributes;

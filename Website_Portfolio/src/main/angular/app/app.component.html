@@ -1,6 +1,12 @@
-<div id="main">
-    <app-part-me></app-part-me>
-    <app-part-general></app-part-general>
-    <app-part-projects (clicked)="this.projectViewed = $event; this.projectClick()"></app-part-projects>
+<div class="row w100 m0">
+    <div class="col-1 w100"></div>
+    <div class="col-md-10 w100 p0">
+        <div id="main" class="w100">
+            <app-part-me></app-part-me>
+            <app-part-general class="item"></app-part-general>
+            <app-part-projects class="item" (clicked)="this.projectViewed = $event; this.projectClick()"></app-part-projects>
+        </div>
+        <app-part-project-view id="view" [project]="projectViewed" (clicked)="this.viewClick()" style="display: none;"></app-part-project-view>
+    </div>
+    <div class="col-1 w100 p0"></div>
 </div>
-<app-part-project-view id="view" [project]="projectViewed" (clicked)="this.viewClick()" style="display: none;"></app-part-project-view>

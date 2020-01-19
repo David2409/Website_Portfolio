@@ -12,6 +12,7 @@ create table aboutme(
 	id SMALLINT AUTO_INCREMENT PRIMARY KEY,
 	name VARCHAR(15) NOT NULL,
     picture_id BIGINT NOT NULL,
+    description Text NOT NULL,
     FOREIGN KEY fk_picture_id(picture_id) REFERENCES pictures(id)
 );
 

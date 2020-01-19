@@ -9,12 +9,6 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
-import javax.xml.transform.Result;
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -149,13 +143,8 @@ public class Projects {
 
     @GET
     @Path("/fav/{amount}")
-    public DTOProject[] FavoriteProjects(@PathParam("amount") int amount){
-        DTOProject[] projects = new DTOProject[amount];
-        for(int i = 0; i < amount; i++){
-            projects[i] = new DTOProject();
-            projects[i].tags = new ArrayList<String>();
-            projects[i].sourcecode = new ArrayList<String>();
-        }
+    public List<DTOProject> FavoriteProjects(@PathParam("amount") int amount){
+        List<DTOProject> projects = new ArrayList<DTOProject>();
         LOGGER.log(Level.INFO,"Got HTTP-Request for amount: " + amount);
         try{
             Statement statement = Globals.database.createStatement();
@@ -166,10 +155,13 @@ public class Projects {
             while(result.next()){
                 ids += result.getString(1) + ",";
                 lIds[pos] = result.getInt(1);
-                projects[pos].id = result.getInt(1);
-                projects[pos].name = result.getString(2);
-                projects[pos].description = result.getString(3);
-                projects[pos].coverpicture = result.getInt(4);
+                projects.add(new DTOProject());
+                projects.get(pos).id = result.getInt(1);
+                projects.get(pos).name = result.getString(2);
+                projects.get(pos).description = result.getString(3);
+                projects.get(pos).coverpicture = result.getInt(4);
+                projects.get(pos).tags = new ArrayList<String>();
+                projects.get(pos).sourcecode = new ArrayList<String>();
                 pos++;
             }
             ids = ids.substring(0, ids.length()-1);
@@ -178,10 +170,10 @@ public class Projects {
             result = statement.executeQuery("SELECT ttp.project_id, ttp.tag_name FROM tagstoprojects ttp JOIN projects p WHERE p.id = ttp.project_id AND p.id in " + ids + " ORDER BY p.myRating;");
             result.next();
             try {
-                for(int i= 0; i < projects.length; i++) {
+                for(int i= 0; i < projects.size(); i++) {
                     do {
                         if (result.getInt(1) == lIds[i]) {
-                            projects[i].tags.add(result.getString(2));
+                            projects.get(i).tags.add(result.getString(2));
                         } else {
                             break;
                         }
@@ -193,10 +185,10 @@ public class Projects {
             result = statement.executeQuery("SELECT p.id, scf.file FROM sourcecodefile scf JOIN projects p WHERE p.id = scf.project_id AND p.id in " + ids + " ORDER BY p.myRating;");
             result.next();
             try {
-                for(int i= 0; i < projects.length; i++) {
+                for(int i= 0; i < projects.size(); i++) {
                     do {
                         if (result.getInt(1) == lIds[i]) {
-                            projects[i].sourcecode.add(Globals.TextToHTML(result.getString(2)));
+                            projects.get(i).sourcecode.add(Globals.TextToHTML(result.getString(2)));
                         } else {
                             break;
                         }
