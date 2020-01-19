@@ -1,4 +1,4 @@
-const server = "http://localhost:8080/WebsitePortfolio/"
+const server = "http://lvps83-169-19-183.dedicated.hosteurope.de:8080/WebsitePortfolio/"
 
 export const aboutMeURL = {
     "URL":server + "aboutme"
