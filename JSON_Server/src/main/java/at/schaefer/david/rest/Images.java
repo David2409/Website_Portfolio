@@ -1,14 +1,10 @@
 package at.schaefer.david.rest;
 
-import javax.imageio.ImageIO;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.awt.image.BufferedImage;
-import java.io.ByteArrayOutputStream;
 import java.sql.Blob;
 import java.sql.ResultSet;
 import java.sql.Statement;

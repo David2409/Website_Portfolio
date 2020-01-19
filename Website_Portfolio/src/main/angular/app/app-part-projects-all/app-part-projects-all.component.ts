@@ -1,6 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { DataService } from '../data.service';
-import { tagsURL, projectsSearch, changeLayout, imageURL } from '../../settings';
+import { tagsURL, projectsSearch, changeLayout, imageURL, projectDownloadURL } from '../../settings';
 
 @Component({
   selector: 'app-part-projects-all',
@@ -36,6 +36,7 @@ export class AppPartProjectsAll implements OnInit {
       this.projects = data;
       for(var i = 0; i < this.projects.length; i++){
         this.projects[i].coverpicture = imageURL.URL + this.projects[i].coverpicture;
+        this.projects[i].file = projectDownloadURL.URL + this.projects[i].file;
       }
       console.log(this.projects);
     });

@@ -29,7 +29,7 @@ public class Projects {
             Statement statement = Globals.database.createStatement();
             Statement statementTags = Globals.database.createStatement();
             Statement statementCode = Globals.database.createStatement();
-            ResultSet result = statement.executeQuery("SELECT id, name, description,coverpicture_id as coverpicture FROM projects;");
+            ResultSet result = statement.executeQuery("SELECT id, name, description,coverpicture_id, file as coverpicture FROM projects;");
             ResultSet resultTags = statementTags.executeQuery("SELECT project_id, tag_name FROM tagstoprojects ORDER BY project_id;");
             ResultSet resultCode = statementCode.executeQuery("SELECT project_id, file FROM sourcecodefile ORDER BY project_id;");
             resultTags.next();
@@ -40,6 +40,7 @@ public class Projects {
                 project.name = result.getString(2);
                 project.description = result.getString(3);
                 project.coverpicture = result.getInt(4);
+                project.file = result.getInt(5);
                 project.tags = new ArrayList<String>();
                 int id = result.getInt(1);
                 try{
@@ -82,7 +83,7 @@ public class Projects {
             Statement statement = Globals.database.createStatement();
             Statement statementTags = Globals.database.createStatement();
             Statement statementCode = Globals.database.createStatement();
-            ResultSet result = statement.executeQuery("SELECT id, name, description, coverpicture_id as coverpicture FROM projects WHERE id=" + id + ";");
+            ResultSet result = statement.executeQuery("SELECT id, name, description, coverpicture_id as coverpicture, file FROM projects WHERE id=" + id + ";");
             ResultSet resultTags = statementTags.executeQuery("SELECT tag_name FROM tagstoprojects WHERE project_id=" + id + ";");
             ResultSet resultCode = statementCode.executeQuery("SELECT file FROM sourcecodefile WHERE project_id=" + id + ";");
             if(result.next()){
@@ -90,6 +91,7 @@ public class Projects {
                 project.name = result.getString(2);
                 project.description = result.getString(3);
                 project.coverpicture = result.getInt(4);
+                project.file = result.getInt(5);
                 project.tags = new ArrayList<String>();
                 while(resultTags.next()){
                     project.tags.add(resultTags.getString(1));
@@ -160,6 +162,7 @@ public class Projects {
                 projects.get(pos).name = result.getString(2);
                 projects.get(pos).description = result.getString(3);
                 projects.get(pos).coverpicture = result.getInt(4);
+                projects.get(pos).file = result.getInt(1);
                 projects.get(pos).tags = new ArrayList<String>();
                 projects.get(pos).sourcecode = new ArrayList<String>();
                 pos++;
@@ -227,6 +230,7 @@ public class Projects {
                 project.name = result.getString(2);
                 project.description = result.getString(3);
                 project.coverpicture = result.getInt(4);
+                project.file = result.getInt(1);
                 project.sourcecode = new ArrayList<String>();
                 project.tags = new ArrayList<String>();
                 projects.add(project);
@@ -294,6 +298,7 @@ public class Projects {
                 project.name = result.getString(2);
                 project.description = result.getString(3);
                 project.coverpicture = result.getInt(4);
+                project.file = result.getInt(1);
                 project.sourcecode = new ArrayList<String>();
                 project.tags = new ArrayList<String>();
                 projects.add(project);

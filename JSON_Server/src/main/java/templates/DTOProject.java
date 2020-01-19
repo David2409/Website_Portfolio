@@ -10,4 +10,5 @@ public class DTOProject {
     public int coverpicture;
     public List<String> tags;
     public List<String> sourcecode;
+    public int file;
 }

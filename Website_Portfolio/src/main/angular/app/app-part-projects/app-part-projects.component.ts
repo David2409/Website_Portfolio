@@ -10,14 +10,10 @@ import { projectsURL} from '../../settings';
 export class AppPartProjects implements OnInit {
 
   @Output() clicked = new EventEmitter();
-  projects;
 
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.dataService.Get(projectsURL.URL).subscribe((data:any ) => {
-      this.projects = data;
-    });
   }
 }
 

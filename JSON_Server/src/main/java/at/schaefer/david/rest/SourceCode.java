@@ -49,7 +49,7 @@ public class SourceCode {
             if(result.next()){
                 Blob blob = result.getBlob(1);
                 statement.close();
-                return Response.status(200).entity(blob.getBinaryStream()).type(MediaType.APPLICATION_OCTET_STREAM).header("content-disposition","attachment; filename = project + " + id + ".zip").build();
+                return Response.status(200).entity(blob.getBinaryStream()).type(MediaType.APPLICATION_OCTET_STREAM).header("content-disposition","attachment; filename = project" + id + ".zip").build();
             }
             statement.close();
             return Response.status(400).entity("").build();

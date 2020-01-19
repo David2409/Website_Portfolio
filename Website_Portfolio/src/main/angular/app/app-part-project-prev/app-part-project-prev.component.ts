@@ -9,12 +9,11 @@ import { element } from 'protractor';
   styleUrls: ['./app-part-project-prev.component.css']
 })
 export class AppPartProjectPrev implements OnInit {
-  
+
   //@Input() mId: string;
-  
+
   @Output() clicked = new EventEmitter();
   @Input() project;
-  thisObject;
 
   constructor(private dataService: DataService) { }
 
@@ -24,7 +23,7 @@ export class AppPartProjectPrev implements OnInit {
       this.project = data;
       this.project.coverpicture = imageURL.URL + this.project.coverpicture;
     })*/
-  } 
+  }
   View(){
     this.clicked.emit(this.project);
   }

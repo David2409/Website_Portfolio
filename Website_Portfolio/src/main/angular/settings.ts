@@ -6,6 +6,9 @@ export const aboutMeURL = {
 export const projectsURL = {
     "URL":server + "projects"
 };
+export const projectDownloadURL = {
+    "URL":server + "sourcecode/download/"
+}
 export const projectsSearch = {
     "URL":server + "projects/search/"
 };

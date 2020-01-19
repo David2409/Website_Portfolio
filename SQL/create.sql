@@ -1,6 +1,5 @@
-#drop database websiteportfolio;
-#create database websiteportfolio;
 #use websiteportfolio;
+create database portfolio;
 use portfolio;
 
 create table pictures(

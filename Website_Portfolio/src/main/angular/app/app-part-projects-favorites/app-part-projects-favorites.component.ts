@@ -1,6 +1,6 @@
 import { Component, OnInit, HostListener, Output, EventEmitter } from '@angular/core';
 import { DataService } from '../data.service';
-import { projectsFavorURL, changeLayout, imageURL } from '../../settings';
+import { projectsFavorURL, changeLayout, imageURL, projectDownloadURL } from '../../settings';
 
 @Component({
   selector: 'app-part-projects-favorites',
@@ -24,6 +24,7 @@ export class AppPartProjectsFavorites implements OnInit {
       this.receivedData = data;
       for(var i = 0; i < this.receivedData.length; i++){
         this.receivedData[i].coverpicture = imageURL.URL + this.receivedData[i].coverpicture;
+        this.receivedData[i].file = projectDownloadURL.URL + this.receivedData[i].file;
       }
       this.GeneratePackages(3);
       this.Resize();

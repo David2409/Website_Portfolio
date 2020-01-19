@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df45c74c-b186-49bc-9351-5fd149fa8680" name="Default Changelist" comment="save">
+    <list default="true" id="df45c74c-b186-49bc-9351-5fd149fa8680" name="Default Changelist" comment="I think this is the final version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/AboutMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/AboutMe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/SourceCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/SourceCode.java" afterDir="false" />
@@ -294,7 +294,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="save" />
-    <option name="LAST_COMMIT_MESSAGE" value="save" />
+    <MESSAGE value="I think this is the final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="I think this is the final version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="215" width="800" height="684" key="#Plugins" timestamp="1578927208696">
