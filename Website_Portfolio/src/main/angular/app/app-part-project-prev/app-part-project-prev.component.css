@@ -9,3 +9,9 @@ img{
     margin: 0;
     padding: 0;
 }
+.tags{
+    height: 4vw;
+    display: inline-flex; 
+    flex-wrap: wrap; 
+    align-items: center;
+}

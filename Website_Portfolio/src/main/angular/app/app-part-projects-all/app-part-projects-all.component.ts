@@ -26,7 +26,6 @@ export class AppPartProjectsAll implements OnInit {
   }
 
   Search() {
-    console.log(projectsSearch.URL + this.selectedName + "/" + this.GetTags());
     this.dataService.Get(projectsSearch.URL + this.selectedName + "/" + this.GetTags()).subscribe((data:any ) => {
       if(window.innerWidth <= changeLayout){
         this.showSmall = false;
@@ -38,6 +37,7 @@ export class AppPartProjectsAll implements OnInit {
       for(var i = 0; i < this.projects.length; i++){
         this.projects[i].coverpicture = imageURL.URL + this.projects[i].coverpicture;
       }
+      console.log(this.projects);
     });
   }
 
