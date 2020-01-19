@@ -1,6 +1,7 @@
-drop database websiteportfolio;
-create database websiteportfolio;
-use websiteportfolio;
+#drop database websiteportfolio;
+#create database websiteportfolio;
+#use websiteportfolio;
+use portfolio;
 
 create table pictures(
 	id BIGINT AUTO_INCREMENT PRIMARY KEY,

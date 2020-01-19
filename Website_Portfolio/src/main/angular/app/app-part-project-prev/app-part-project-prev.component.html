@@ -2,7 +2,7 @@
   <div class="card shadow-sm">
     <img src="{{project.coverpicture}}">
     <div class="card-body">
-      <div class="tags" style="height: 2vw; display: flex; flex-wrap: nowrap; align-items: center; overflow: hidden;">
+      <div class="tags">
         <div *ngFor="let tag of project.tags" style="font-size: small; padding:0.3vw">{{tag}}</div>
       </div>
       <p class="card-text textarea text">{{project.description}}</p>

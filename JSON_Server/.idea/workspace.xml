@@ -3,13 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="df45c74c-b186-49bc-9351-5fd149fa8680" name="Default Changelist" comment="save">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/AboutMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/AboutMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/SourceCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/SourceCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/templates/DTOAboutMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/templates/DTOAboutMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/AboutMe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/AboutMe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Globals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Globals.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Projects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Projects.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/AboutMe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/AboutMe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Globals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Globals.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Projects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Projects.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/node-gyp-bin/node-gyp" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/node-gyp-bin/node-gyp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/node-gyp-bin/node-gyp.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/node-gyp-bin/node-gyp.cmd" afterDir="false" />
@@ -136,7 +142,14 @@
       <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/update-authors.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/update-authors.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/npm" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/npm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/npm.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/npm.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-general/app-part-general.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-general/app-part-general.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-project-prev/app-part-project-prev.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-project-prev/app-part-project-prev.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-project-prev/app-part-project-prev.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-project-prev/app-part-project-prev.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects/app-part-projects.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects/app-part-projects.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +169,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -254,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579449184325</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="save">
+      <created>1579453302773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579453302773</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,30 +316,30 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="748" y="440" width="494" height="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/70.27.1850.1053@70.27.1850.1053" timestamp="1579165159348" />
-    <state x="536" y="150" width="907" height="814" key="CommitChangelistDialog2" timestamp="1579449215699">
+    <state x="536" y="150" width="907" height="814" key="CommitChangelistDialog2" timestamp="1579453302567">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="536" y="150" width="907" height="814" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1579449215699" />
+    <state x="536" y="150" width="907" height="814" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1579453302567" />
     <state x="896" y="314" width="424" height="491" key="FileChooserDialogImpl" timestamp="1579387950051">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="896" y="314" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1579387950051" />
-    <state width="1804" height="257" key="GridCell.Tab.0.bottom" timestamp="1579448828514">
+    <state width="869" height="257" key="GridCell.Tab.0.bottom" timestamp="1579457634055">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="257" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1579448828514" />
-    <state width="1804" height="257" key="GridCell.Tab.0.center" timestamp="1579448828513">
+    <state width="869" height="257" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1579457634054" />
+    <state width="869" height="257" key="GridCell.Tab.0.center" timestamp="1579457634054">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="257" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1579448828513" />
-    <state width="1804" height="257" key="GridCell.Tab.0.left" timestamp="1579448828513">
+    <state width="869" height="257" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1579457634054" />
+    <state width="869" height="257" key="GridCell.Tab.0.left" timestamp="1579457634053">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="257" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1579448828513" />
-    <state width="1804" height="257" key="GridCell.Tab.0.right" timestamp="1579448828514">
+    <state width="869" height="257" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1579457634053" />
+    <state width="869" height="257" key="GridCell.Tab.0.right" timestamp="1579457634054">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="257" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1579448828514" />
+    <state width="869" height="257" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1579457634054" />
     <state width="1804" height="201" key="GridCell.Tab.1.bottom" timestamp="1579383695491">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -351,6 +372,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="651" y="380" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1579382354434" />
+    <state x="763" y="473" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579453309901">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="763" y="473" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053@70.27.1850.1053" timestamp="1579453309901" />
     <state x="659" y="252" key="run.anything.popup" timestamp="1579017204131">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>

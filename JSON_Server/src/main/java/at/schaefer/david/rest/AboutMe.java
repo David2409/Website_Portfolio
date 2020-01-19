@@ -28,10 +28,11 @@ public class AboutMe {
         DTOAboutMe aboutMe = new DTOAboutMe();
         try{
              Statement statement = Globals.database.createStatement();
-             ResultSet result = statement.executeQuery("SELECT name, picture_id FROM aboutme;");
+             ResultSet result = statement.executeQuery("SELECT name, picture_id, description FROM aboutme;");
              if(result.next()) {
                  aboutMe.name = result.getString(1);
                  aboutMe.picture = result.getInt(2);
+                 aboutMe.description = result.getString(3);
                  statement.close();
              }
              statement.close();
