@@ -1,47 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df45c74c-b186-49bc-9351-5fd149fa8680" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/All.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/Tags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/templates/DTOAboutMe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/templates/DTOProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/templates/DTOProjectPrev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/templates/DTOTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/templates/DTOTags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all-tags/app-part-projects-all-tags.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all-tags/app-part-projects-all-tags.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all-tags/app-part-projects-all-tags.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all-tags/app-part-projects-all-tags.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="df45c74c-b186-49bc-9351-5fd149fa8680" name="Default Changelist" comment="save">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/AboutMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/AboutMe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/Globals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/Images.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/Images.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/Projects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/Projects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/SourceCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/SourceCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/StartupListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/schaefer/david/rest/StartupListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/AboutMe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/AboutMe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Globals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Globals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Images.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Images.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Projects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/Projects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/StartupListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/classes/at/schaefer/david/rest/StartupListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebsitePortfolio/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/AboutMe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/AboutMe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Globals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Globals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Images.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Images.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Projects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/Projects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/StartupListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/schaefer/david/rest/StartupListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SQL/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SQL/sqlquerys.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/sqlquerys.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SQL/tempData.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/tempData.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/node-gyp-bin/node-gyp" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/node-gyp-bin/node-gyp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/node-gyp-bin/node-gyp.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/bin/node-gyp-bin/node-gyp.cmd" afterDir="false" />
@@ -168,23 +136,7 @@
       <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/update-authors.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/node_modules/npm/scripts/update-authors.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/npm" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/npm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Website_Portfolio/node/npm.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/node/npm.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-me/app-part-me.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-project-prev/app-part-project-prev.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-project-prev/app-part-project-prev.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-project-prev/app-part-project-prev.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-project-prev/app-part-project-prev.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-all/app-part-projects-all.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-favorites/app-part-projects-favorites.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-favorites/app-part-projects-favorites.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-favorites/app-part-projects-favorites.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-favorites/app-part-projects-favorites.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-favorites/app-part-projects-favorites.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects-favorites/app-part-projects-favorites.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects/app-part-projects.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app-part-projects/app-part-projects.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/settings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Website_Portfolio/src/main/angular/settings.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +170,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -295,6 +247,14 @@
       <option name="presentableId" value="Default" />
       <updated>1578690108026</updated>
     </task>
+    <task id="LOCAL-00001" summary="save">
+      <created>1579449184325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579449184325</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,6 +269,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="save" />
+    <option name="LAST_COMMIT_MESSAGE" value="save" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="215" width="800" height="684" key="#Plugins" timestamp="1578927208696">
@@ -331,26 +295,30 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="748" y="440" width="494" height="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/70.27.1850.1053@70.27.1850.1053" timestamp="1579165159348" />
-    <state x="896" y="314" width="424" height="491" key="FileChooserDialogImpl" timestamp="1579096917988">
+    <state x="536" y="150" width="907" height="814" key="CommitChangelistDialog2" timestamp="1579449215699">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="896" y="314" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1579096917988" />
-    <state width="1804" height="257" key="GridCell.Tab.0.bottom" timestamp="1579384968744">
+    <state x="536" y="150" width="907" height="814" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1579449215699" />
+    <state x="896" y="314" width="424" height="491" key="FileChooserDialogImpl" timestamp="1579387950051">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="257" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1579384968744" />
-    <state width="1804" height="257" key="GridCell.Tab.0.center" timestamp="1579384968743">
+    <state x="896" y="314" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1579387950051" />
+    <state width="1804" height="257" key="GridCell.Tab.0.bottom" timestamp="1579448828514">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="257" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1579384968743" />
-    <state width="1804" height="257" key="GridCell.Tab.0.left" timestamp="1579384968742">
+    <state width="1804" height="257" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1579448828514" />
+    <state width="1804" height="257" key="GridCell.Tab.0.center" timestamp="1579448828513">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="257" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1579384968742" />
-    <state width="1804" height="257" key="GridCell.Tab.0.right" timestamp="1579384968743">
+    <state width="1804" height="257" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1579448828513" />
+    <state width="1804" height="257" key="GridCell.Tab.0.left" timestamp="1579448828513">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="257" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1579384968743" />
+    <state width="1804" height="257" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1579448828513" />
+    <state width="1804" height="257" key="GridCell.Tab.0.right" timestamp="1579448828514">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="257" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1579448828514" />
     <state width="1804" height="201" key="GridCell.Tab.1.bottom" timestamp="1579383695491">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -375,6 +343,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="484" y="188" width="1258" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1578932474920" />
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1579449227856">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1579449227856" />
     <state x="651" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1579382354434">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
